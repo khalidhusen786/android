@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FDD835"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="50dp"
+            android:paddingTop="130dp"
+            android:text="Khalid Husen"
+
+            android:textColor="#E53935" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="259dp"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:paddingLeft="100dp"
+            android:paddingTop="40dp"
+            android:text="Sign Up"
+            android:textAlignment="center"
+            android:textColor="#E53935"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="50dp"
+            android:paddingTop="200dp"
+            android:text="abc@gmail.com"
+
+            android:textColor="#E53935" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="140dp"
+            android:paddingTop="260dp"
+            android:text="Gender"
+            android:textColor="#E53935"
+            android:textSize="18sp" />
+
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="280dp"
+            android:text="Male"
+            android:textColor="#E53935"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="280dp"
+            android:text="Female"
+            android:textColor="#E53935"
+            android:textSize="18sp" />
+
+
+
+
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="350dp"
+            android:text="Accept term and condition"
+            android:textColor="#E53935"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="264dp"
+            android:layout_height="63dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="460dp"
+            android:background="#0E1855"
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:textColor="#E53935"
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
